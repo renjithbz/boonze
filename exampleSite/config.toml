@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://boonze-v2.netlify.app/"
+baseURL = "https://boonze.com/"
 title = "SEM Company, PPC Agency, and SEO Outsourcing Services in Chennai, India"
 theme = "boonze"
 # post pagination

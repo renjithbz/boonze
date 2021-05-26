@@ -10,13 +10,13 @@ banner:
   button_solid:
     enable : true
     label : "Explore Us"
-    link : "about"
+    link : "about-us"
 
   # button outline
   button_outline:
     enable : false
     label : "Contact Us"
-    link : "contact"
+    link : "contact-us"
 
 ##################### call to action ########################################
 cta:
@@ -39,7 +39,7 @@ about:
   button:
     enable : true
     label : "know more"
-    link : "about"
+    link : "about-us"
 
 
 ##################### call to action 2 ########################################
