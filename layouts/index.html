@@ -1,0 +1,183 @@
+{{ define "main" }}
+
+<!-- hero area -->
+{{ with .Params.banner }}
+<section class="hero-section bg-cover position-relative overlay"
+  style="background-image: url('{{ .bg_image_webp | relURL }}');">
+  <!-- this image is for trigger this section fallback background image -->
+	<img class="d-none" loading="lazy" decoding="async" src="{{ .bg_image_webp | relURL }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .bg_image | relURL }})'"/>
+  <div class="hero-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto text-center">
+          <h1 class="text-white mb-5 text-capitalize">{{ .title | markdownify }}</h1>
+          <p class="text-light mb-4 mx-lg-5 px-lg-4 content">{{ .content | markdownify }}</p>
+          {{ if .button_solid.enable }}
+          {{ with .button_solid }}
+          <a href="{{ .link | relLangURL }}" class="btn btn-primary m-2">{{ .label }}</a>
+          {{ end }}
+          {{ end }}
+
+          {{ if .button_outline.enable }}
+          {{ with .button_outline }}
+          <a href="{{ .link | relLangURL }}" class="btn btn-outline-primary m-2">{{ .label }}</a>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+<!-- /hero area -->
+
+<!-- cta -->
+{{ with .Params.cta }}
+{{ if .enable }}
+{{ partial "cta.html" . }}
+{{ end }}
+{{ end }}
+
+<!-- about -->
+{{ with .Params.about }}
+{{ if .enable }}
+<section class="section bg-secondary-white">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-4 mb-md-0 pr-lg-5">
+        <img loading="lazy" decoding="async" src="{{ .image | relURL }}" alt="about" class="img-fluid" height="360" width="700">
+      </div>
+      <div class="col-md-6 pl-lg-4">
+        <div class="content mb-4">{{ .content | markdownify }}</div>
+        {{ if .button.enable }}
+        {{ with .button }}
+        <a href="{{ .link | relLangURL }}" class="btn btn-primary">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{end}}
+{{end}}
+<!-- /about -->
+
+<!-- cta two -->
+{{ with .Params.cta_two }}
+{{ if .enable }}
+{{ partial "cta.html" . }}
+{{ end }}
+{{ end }}
+
+<!-- how_can_boonze_help -->
+{{ with .Params.how_can_boonze_help }}
+{{ if .enable }}
+<section class="section bg-secondary-white-left">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 pr-lg-4">
+        <div class="content mb-4">{{ .content | markdownify }}</div>
+      </div>
+      <div class="col-md-6 mb-4 mb-md-0 pl-lg-5">
+        <img loading="lazy" decoding="async" src="{{ .image | relURL }}" alt="about" class="img-fluid" height="360" width="700">
+      </div>
+    </div>
+  </div>
+</section>
+{{end}}
+{{end}}
+<!-- /how_can_boonze_help -->
+
+<!-- who_we_serve -->
+{{if .Params.who_we_serve.enable}}
+{{ with site.GetPage "who-we-serve" }}
+<section class="section bg-light">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center mb-5 pb-2">
+        <h2 class="section-title mb-3">{{ .Params.title | markdownify }}</h2>
+        <p class="h4 text-dark">{{ .Params.subtitle | markdownify }}</p>
+      </div>
+    </div>
+    <div class="row">
+      {{ range .Params.who_we_serve_items }}
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card rounded-0 text-center hover-bg-secondary h-100">
+          <div class="card-body p-4">
+            <i class="icon-rounded bg-primary text-white {{ .icon }} mb-4"></i>
+            <h4 class="card-title">{{ .title | markdownify }}</h4>
+            <P class="card-text content">{{ .content | truncate 120 | markdownify }}</P>
+            <a class="text-capitalize" href="who-we-serve#{{ .title | urlize }}{{.RelLangURL}}">{{i18n `read_more`}}</a>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /who_we_serve -->
+
+<!-- testimonial -->
+{{ with .Params.testimonial }}
+{{ if .enable }}
+<section class="section pt-0 bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">{{ .title | markdownify }}</h2>
+      </div>
+    </div>
+    <div class="row">
+      {{ range .testimonial_item }}
+      <div class="col-lg-4 col-md-6">
+        <!-- Testimonial -->
+        <div class="testimonial-item">
+          <!-- Given Comment -->
+          <div class="comment match-height content">
+            {{ .content | markdownify }}
+          </div>
+          <div class="person">
+            <div class="media">
+              <!-- Person Image -->
+              <div class="media-body">
+                <h5>{{ .name | markdownify }}</h5>
+                <p class="mb-0">{{ .designation | markdownify }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /testimonial -->
+
+<!-- clients -->
+{{ if .Params.clients_logo.enable }}
+{{ partial "clients-logo-slider.html" . }}
+{{ end }}
+<!-- /clients -->
+
+<!-- sister_company -->
+{{ with .Params.sister_company }}
+{{ if .enable }}
+<section class="section bg-light">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <h2 class="section-title mb-3">{{ .title | markdownify }}</h2>
+        <div class="content">{{ .content | markdownify }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+{{end}}
+{{end}}
+<!-- /sister_company -->
+
+{{ end }}

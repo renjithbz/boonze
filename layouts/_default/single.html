@@ -1,0 +1,46 @@
+{{ define "main" }}
+
+<!-- checking blog -->
+{{ if or (eq .Section "post") (eq .Section "posts") (eq .Section "blog") (eq .Section "blogs") (eq .Section "news") (eq .Section "categories") (eq .Section "tags") }}
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 order-2 order-lg-1">
+        <h2 class="mb-4">{{ .Title }}</h2>
+        <img loading="lazy" decoding="async" class="img-fluid w-100 mb-2" src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
+        <div class="mb-4">By <a class="text-dark font-weight-bold"
+            href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}">{{ .Params.Author | title }}</a> / on
+          <strong class="text-dark">{{ .PublishDate.Format "02 Jan, 2006" }}</strong></div>
+        <div class="content">{{ .Content }}</div>
+
+        <!-- comments -->
+        {{ if .Site.DisqusShortname }}
+        <div class="mt-5">
+          {{ template "_internal/disqus.html" . }}
+        </div>
+        {{ end }}
+      </div>
+      {{ partial "blog-sidebar.html" . }}
+    </div>
+  </div>
+</section>
+
+<!-- regular page -->
+{{ else }}
+{{- partial "page-title.html" . -}}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <div class="content">
+          {{.Content}}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+<!-- /regular page -->
+
+{{ end }}

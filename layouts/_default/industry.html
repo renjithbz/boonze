@@ -1,0 +1,48 @@
+{{ define "main" }}
+{{- partial "page-title.html" . -}}
+
+<!-- cta -->
+{{ with .Params.cta }}
+{{ if .enable }}
+{{ partial "cta.html" . }}
+{{ end }}
+{{ end }}
+
+<!-- industry_we_serve -->
+{{ with .Params.industry_we_serve }}
+{{ if .enable }}
+<section class="section bg-cover" style="background-image: url('{{ .bg_image | relURL }}')">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="content mb-4 text-white h4" style="line-height:1.6">{{ .content | markdownify }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- industry_we_serve -->
+{{ with .Params.industry_we_serve }}
+{{ if .enable }}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      {{ range .blocks }}
+      <div class="col-md-6 mb-4">
+        <div class="card p-3 p-md-4 rounded-0 bg-secondary h-100">
+          <div class="card-body">
+            <h3 class="card-title text-white mb-4">{{ .title | markdownify }}</h3>
+            <p class="card-text text-white">{{ .content | markdownify }}</p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ end }}

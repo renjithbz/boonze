@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+<!-- cta -->
+{{ with .Params.cta }}
+{{ if .enable }}
+{{ partial "cta.html" . }}
+{{ end }}
+{{ end }}
+
+<!-- service -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      {{ range .Params.service_item }}
+      <div class="col-md-6 mb-4">
+        <div class="card rounded-0 bg-secondary h-100">
+          <div class="card-body p-4">
+            <h3 class="card-title text-white mb-4 pb-1">{{ .title | markdownify }}</h3>
+            <P class="card-text text-white content">{{ .content | markdownify }}</P>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- /service -->
+
+{{ end }}

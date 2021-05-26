@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+<!-- cta -->
+{{ with .Params.cta }}
+{{ if .enable }}
+{{ partial "cta.html" . }}
+{{ end }}
+{{ end }}
+
+<section class="section bg-light">
+  <div class="container">
+    <div class="row justify-content-center">
+      {{ range .Params.who_we_serve_items }}
+      <div class="col-lg-10 mt-4" id="{{ .title | urlize }}">
+        <div class="card rounded-0 hover-bg-secondary h-100">
+          <div class="card-body p-4">
+            <i class="icon-rounded bg-primary text-white text-center {{ .icon }} mb-4"></i>
+            <h3 class="card-title mb-4">{{ .title | markdownify }}</h3>
+            <P class="card-text content">{{ .content | markdownify }}</P>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}

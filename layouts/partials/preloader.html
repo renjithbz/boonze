@@ -1,0 +1,9 @@
+{{ if .Site.Params.preloader.enable }}
+{{ "<!-- preloader start -->" | safeHTML }}
+<div class="preloader">
+  {{ with .Site.Params.preloader.preloader }}
+  <img loading="lazy" decoding="async" src="{{ . | relURL }}" alt="preloader">
+  {{ end }}
+</div>
+{{ "<!-- preloader end -->" | safeHTML }}
+{{ end }}

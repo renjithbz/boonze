@@ -1,0 +1,18 @@
+{{ with .Site.Params.clients_logo }}
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">{{i18n "client_slider_title"}}</h2>
+      </div>
+    </div>
+
+    <div class="client-logo-slider">
+      {{ range . }}
+      <div class="text-center py-3 px-2"><img loading="lazy" decoding="async" class="d-unset img-fluid" src="{{ .logo | relURL }}" alt="client-logo">
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

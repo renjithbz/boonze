@@ -1,0 +1,81 @@
+<!-- footer -->
+<footer class="footer bg-cover overlay overflow-hidden" style="background-image: url('{{`images/backgrounds/footer.webp` | relURL}}');">
+  <!-- this image is for trigger this section fallback background image -->
+	<img class="d-none" loading="lazy" decoding="async" src="{{ `images/backgrounds/footer.webp` | relURL }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ `images/backgrounds/footer.jpg` | relURL }})'"/>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 bg-secondary footer-block">
+        <a href="{{ .Site.BaseURL }}" class="d-flex h-100 align-items-center justify-content-center">
+          <img loading="lazy" decoding="async" class="img-fluid" src="{{ .Site.Params.logo | relURL }}" alt="{{ .Site.Title }}" height="49" width="170">
+        </a>
+      </div>
+      <div class="col-lg-9">
+        <div class="row pl-lg-5 pl-0 py-5">
+          {{ with site.Params.address }}
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <h5 class="text-white mb-4">{{ i18n "address"}}</h5>
+          
+            <div class="text-white content address" itemscope itemtype="https://schema.org/Organization">
+              <span itemprop="name">{{.company_name}}</span>
+              <div itemprop="address" itemscope itemtype="https://schema.org/address">
+                <span itemprop="addressLocality">{{.address_locality}}</span><br>
+                <span itemprop="streetAddress">{{.street_address}}</span><br>
+                <span itemprop="addressRegion">{{.address_region}}</span><br>
+              </div>
+            </div>
+
+          </div>
+          {{ end }}
+          <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+            <div class="pl-0 pl-lg-5">
+              <h5 class="text-white mb-4">{{i18n "our_company"}}</h5>
+              <ul class="list-unstyled">
+                {{ $.Scratch.Set "counter" 0 }}
+                {{ range .Site.Menus.footer }}
+                {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+                {{$n := $.Scratch.Get "counter"}}
+                <li class="text-white pb-3"><a href="{{ .URL | relURL }}" {{if (eq $n 2)}} rel="noopener" target="_blank" {{ end }}>{{ .Name }}</a></li>
+                {{ end }}
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <h5 class="text-white mb-4">{{ i18n "contact_us"}}</h5>
+            <ul class="list-unstyled">
+              <li class="text-white pb-3"><i class="ti-mobile mr-2"></i>{{ .Site.Params.mobile | markdownify }}</li>
+              <li class="text-white pb-3"><i class="ti-email mr-2"></i>{{ .Site.Params.email | markdownify }}</li>
+            </ul>
+            
+            <h5 class="text-white mb-4">{{ i18n "connect_with_us"}}</h5>
+            <ul class="list-inline">
+              {{ range .Site.Params.social }}
+              <li class="list-inline-item mx-2 text-white"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+{{ if .Site.Params.search }}
+<script>
+  var indexURL = {{"index.json" | relURL}}
+</script>
+{{ end }}
+
+{{ "<!-- Google Map API -->" | safeHTML }}
+{{ with .Site.Params.map.gmap_api }}
+<script src="{{ . | safeURL }}"></script>
+{{ end }}
+
+{{ "<!-- JS Plugins -->" | safeHTML }}
+{{ range .Site.Params.plugins.js}}
+<script src="{{ .link | relURL }}"></script>
+{{ end }}
+
+{{ "<!-- Main Script -->" | safeHTML }}
+{{ $script := resources.Get "js/script.js" | minify}}
+<script src="{{ $script.Permalink }}"></script>

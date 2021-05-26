@@ -1,0 +1,26 @@
+/*!------------------------------------------------------------------
+[MAIN STYLESHEET]
+
+PROJECT:	Project Name
+VERSION:	Versoin Number
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[TABLE OF CONTENTS]
+-------------------------------------------------------------------*/
+
+@import 'bootstrap/bootstrap';
+
+@import 'variables';
+
+@import 'mixins';
+
+@import 'typography';
+
+@import 'buttons';
+
+@import 'common';
+
+@import 'templates/navigation';
+
+@import 'templates/homepage';
