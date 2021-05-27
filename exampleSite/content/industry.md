@@ -39,14 +39,15 @@ industry_we_serve:
       their current inventory of new or used vehicles, parts, and services. Client
       revenue is based on landing page visits. Keywords and ad copy are generated
       automatically based on the dealer’s current inventory.
-  - title: Greeting Cards
-    content: Electronic greeting cards with advertising. Client revenue is based on
-      the downloading / sending of eCards. Objective of the campaign is to generate
-      100+ downloads per day within a predefined cost per download. Adopted a portfolio
-      campaign management strategy, where each campaign was optimized individually,
-      but with the goal of meeting the overall objective. All the optimizations (bid
-      changes, pausing / adding keywords, changing ad copy) performed manually and
-      achieved desired results.
+  - title: Widgets & Toolbar Extensions
+    content: For 10+ years Boonze has delivered performance-oriented campaigns for
+      online greeting card, browser extension, and widget providers. Client revenue
+      is based on the both initial installations as well as ongoing usage. The objective
+      of one previous campaign was to generate 100+ downloads per day within a predefined
+      cost per download. We adopted a portfolio campaign management strategy, where
+      each campaign was optimized individually, but with the goal of meeting the overall
+      objective. All the optimizations (bid changes, pausing / adding keywords, changing
+      ad copy) were performed manually to achieve the desired results, which we did.
   - title: Educational Institutes
     content: Both online and offline. Client revenue is based on signups. Thus extensive
       optimization was performed on a customized basis for the specific needs of each
