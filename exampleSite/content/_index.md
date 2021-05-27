@@ -30,7 +30,7 @@ about:
     link: about-us
 cta_two:
   enable: true
-  title: We Proudly Serve Agencies, Publishers and SMBs. <br> Founded in 2005. One
+  title: We Proudly Serve Agencies, Publishers and SMBs. <br> Founded In 2005. One
     Of The 1st Digital Marketing Agencies In India
 how_can_boonze_help:
   enable: true
