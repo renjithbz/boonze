@@ -29,7 +29,7 @@ who_we_serve_items:
   content: 'We enable leading publishers to evolve by offering digital marketing campaigns
     side-by-side with their traditional advertising options. Boonze provides end-to-end
     services to publishers - from sales training, designing digital marketing packages,
-    campaign strategy, campaign launch, optimization, and white-labeled reporting.
+    campaign strategy, campaign launch, optimization, and white-labelled reporting.
     Take advantage of Boonze’s expertise across marketing platforms. Let’s grow together.
     Contact us to get started. '
 - title: Online Directories
