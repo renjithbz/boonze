@@ -65,7 +65,7 @@ clients_logo:
   enable: true
 sister_company:
   enable: true
-  title: Know Our Sister Company - <u>[O3M Directional Marketing](https://o3mdm.com/)</u>
+  title: Discover Our Sister Company - <u>[O3M Directional Marketing](https://o3mdm.com/)</u>
   content: |2-
      #### In 2010, O3M was spun-out of Boonze to address the unique needs of businesses in the Indian market.
     #### Associations
