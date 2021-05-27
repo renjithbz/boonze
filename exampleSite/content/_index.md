@@ -36,8 +36,8 @@ how_can_boonze_help:
   enable: true
   image: images/about/office.webp
   content: |2-
-     ## How Boonze can help Your Business?
-    Boonze is a leading provider of digital marketing services and technologies to clients who demand accountability, efficiency and predictability from their marketing campaigns. <br><br> When you select Boonze to manage your Digital Marketing campaigns, your company will benefit from a highly qualified analytical team that offers a comprehensive digital marketing promotion strategy producing highly qualified leads, reducing new customer acquisition costs, and ensuring the highest possible return on investment (ROI).
+     ## How Can Boonze Help Your Business?
+    Boonze is a leading provider of digital marketing services and technologies to clients who demand accountability, efficiency and predictability from their marketing campaigns. <br><br> When you select Boonze to manage your digital marketing campaigns your company benefits from a highly qualified analytical team that offers comprehensive digital marketing strategies designed to produce highly qualified leads, reduce new customer acquisition costs, and ensure the highest possible return on investment (ROI) possible. <br><br>We believe in true partnerships. Boonze aligns its interests with those of its clients to create  mutually-beneficial partnerships.
 who_we_serve:
   enable: true
 testimonial:
