@@ -30,10 +30,10 @@ industry_we_serve:
       Spend) of the program. Keyword and ad copy can be customized to each advertiser
       or optimized on a per-category basis.
   - title: Real Estate Aggregator
-    content: Directory that showcases homes for sale from home builders and realtors.
-      Client revenue is based on landing page visits. Keywords and ad copies regularly
-      optimized on a per-category (e.g., homes for sale, apartments for rent) basis
-      - to increase the number of landing page visits for the given budget.
+    content: Directories that showcase homes for sale from home builders and realtors.
+      Client revenue is based on landing page visits. Keywords and ad copies are regularly
+      optimized on a per-category (e.g., homes for sale, apartments for rent) basis.
+      This increases the number of landing page visits for the given budget.
   - title: Automobile - Used Car / OEM
     content: Automobile dealers, both new and used, for parts and service. Client
       revenue is based on landing page visits. Keywords and ad copy are generated
