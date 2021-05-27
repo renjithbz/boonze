@@ -49,8 +49,9 @@ industry_we_serve:
       objective. All the optimizations (bid changes, pausing / adding keywords, changing
       ad copy) were performed manually to achieve the desired results, which we did.
   - title: Educational Institutes
-    content: Both online and offline. Client revenue is based on signups. Thus extensive
-      optimization was performed on a customized basis for the specific needs of each
-      particular advertiser - maximizing the number of signups within the given budget.
+    content: Both online and offline. Client revenue is based either on signups or
+      end enrolments. Thus extensive optimization is performed on a customized basis
+      for the specific needs of each particular college, university, or aggregator.
+      We work tirelessly to maximize the number of signups within the given budget.
 
 ---
