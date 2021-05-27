@@ -52,7 +52,7 @@ link = "plugins/slick/slick.min.js"
 ############################## navigation ###############################
 # main menu
 [[menu.main]]
-name = "Industry We Serve"
+name = "Industries We Serve"
 URL = "industry"
 weight = 2
 
