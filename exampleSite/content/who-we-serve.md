@@ -40,14 +40,14 @@ who_we_serve_items:
     ads, social ads and more to your clients to generate additional revenue. Our experienced
     account strategists will work with you to analyse your directory and co-develop
     a customized, profit-enhancing SEM program that fits your unique requirements.
-- title: PPC Technology Platform
+- title: PPC Technology Platforms
   icon: ti-layers
   content: |-
     Ads management platforms enable scale, automation, advanced reporting and a host of other features. However, when the human element or lots of manual heavy lifting is required, we rise to the occasion. Boonze has experienced operating on most of the common PPC management platforms as well as several developed for internal use by our clients.
 
     We apply our 15+ years of experience working within platforms to expertly complete tasks including keyword generation, campaign optimization, advanced reporting, and more. Additionally, due to being power-users of the platforms, many of our clients look to us for suggestions on platform features and enhancements.
 
-    When you choose Boonze to work on your platform, you’ll enjoy dedicated team members working on your account, significant unbilled training time, and a process-oriented company that sets, and meets, SLAs
+    When you choose Boonze to work on your platform, you’ll enjoy dedicated team members working on your account, significant unbilled training time, and a process-oriented company that sets, and meets, SLAs.
 - title: Marketing Consultation
   icon: ti-flag
   content: |-
