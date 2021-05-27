@@ -8,10 +8,10 @@ cta:
 industry_we_serve:
   enable: true
   bg_image: images/industry.webp
-  content: 'Boonze helps small and medium business and in-house digital marketing
-    teams to manage their digital marketing campaigns. Through our 15 year history
-    in digital marketing, we’ve had the pleasure of working with some remarkable clients
-    to produce some truly amazing work that we are proud to have been a part of. '
+  content: Boonze helps SMBs, large companies, and in-house marketing teams manage
+    their digital marketing campaigns. Through our 15-year history in digital marketing,
+    we’ve had the pleasure of working with some remarkable clients to produce some
+    truly amazing work that we are proud to have been a part of.
   blocks:
   - title: B2B Online Directories
     content: Directory that connects industrial businesses with other businesses supplying
