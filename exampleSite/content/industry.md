@@ -14,11 +14,11 @@ industry_we_serve:
     truly amazing work that we are proud to have been a part of.
   blocks:
   - title: B2B Online Directories
-    content: Directory that connects industrial businesses with other businesses supplying
-      them with business-related commercial products. Client revenue is based on visitors
-      clicking out of the directory to the advertiser's website. Each category / listing
-      may have different revenue (to the client) per click to the advertiser's website.
-      Thus extensive and frequent optimizations of keywords and ad copies are required
+    content: Directories that connect industrial businesses with suppliers of the
+      commercial products that they need. Client revenue is based on visitors clicking
+      out of the directory to the advertisers’ websites. Each category / listing may
+      have different revenue (to the client) per click to the advertiser's website.
+      Thus extensive and frequent optimizations of keywords and ad copy are required
       to maintain client profitability.
   - title: B2C Online Directories
     content: Directory that connects businesses to customers in the entertainment,
