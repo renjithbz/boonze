@@ -83,8 +83,8 @@ URL = "http://www.boonze.blogspot.com/"
 weight = 2
 
 [[menu.footer]]
-name = "Career"
-URL = "career"
+name = "Careers"
+URL = "careers"
 weight = 3
 
 [[menu.footer]]
