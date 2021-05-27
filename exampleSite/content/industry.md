@@ -34,11 +34,11 @@ industry_we_serve:
       Client revenue is based on landing page visits. Keywords and ad copies are regularly
       optimized on a per-category (e.g., homes for sale, apartments for rent) basis.
       This increases the number of landing page visits for the given budget.
-  - title: Automobile - Used Car / OEM
-    content: Automobile dealers, both new and used, for parts and service. Client
+  - title: New and Used Car Dealers. Independent and OEM
+    content: An integrated solution that enables vehicle sellers to list and promote
+      their current inventory of new or used vehicles, parts, and services. Client
       revenue is based on landing page visits. Keywords and ad copy are generated
-      automatically based on the dealer inventory. Keywords and ad copies optimized
-      on a per-category / inventory  basis.
+      automatically based on the dealer’s current inventory.
   - title: Greeting Cards
     content: Electronic greeting cards with advertising. Client revenue is based on
       the downloading / sending of eCards. Objective of the campaign is to generate
