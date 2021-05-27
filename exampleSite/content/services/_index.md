@@ -25,7 +25,7 @@ service_item:
     Take advantage of our in-depth analysis, execution and detailed reporting to get a deeper understanding of where and how people can interact with your business during their customer journey.
 - title: Complete Amazon Account Management Services
   content: |-
-    As an Amazon SPN, we are honored to Amazon Sellers drive sales and lower their ACoS. Whether you have just started selling on Amazon or have an established, productive presence, we can help. We deliver deep analysis of opportunities for our clients to drive positive business outcomes. Let's scale what’s working and fix what’s not, together.
+    As an Amazon SPN, we are honoured to Amazon Sellers drive sales and lower their ACoS. Whether you have just started selling on Amazon or have an established, productive presence, we can help. We deliver deep analysis of opportunities for our clients to drive positive business outcomes. Let's scale what’s working and fix what’s not, together.
     ​​<br><br>
     Our Amazon marketing consultants provide end-to-end services including product listing creation, account health checks & monitoring, product page analysis & recommendations, product listing optimization (Amazon SEO), recommendations for promotional activities, sponsored promotion campaign management, brand store creation, enhanced brand content page creation and much more.
     ​​<br><br>
