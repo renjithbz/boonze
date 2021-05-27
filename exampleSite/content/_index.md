@@ -19,16 +19,11 @@ cta:
 about:
   enable: true
   image: images/about/about.webp
-  content: "\n## Expand Your Digital Marketing Team With Boonze\nAre you looking for
-    digital marketing experts who can work as an extension of your in-house digital
-    marketing team? Boonze manages and optimises search, social, display, video and
-    marketplace advertising campaigns for your business. Our deep understanding of
-    various advertising platforms helps businesses to acquire and retain customers
-    with your marketing campaigns. <br><br> Boonze offers a unique combination of
-    technology, consulting, research, analytics and custom reports to our clients.
-    If you are looking for a process driven organisation which deliver value and efficiency
-    while limiting the variability seen in a people driven organisations, look no
-    further.​ "
+  content: |2-
+
+    ## Expand Your Digital Marketing Team With Boonze
+    Are you looking for digital marketing experts who can work as an extension of your in-house marketing team? Boonze is eager to manage and optimise search, social, display, video and marketplace advertising campaigns for your business. Our deep understanding of various advertising platforms helps businesses acquire and retain customers with performance-driven marketing campaigns.
+     <br><br> Boonze offers a unique combination of technology, consulting, research, analytics, optimization and custom reporting to our clients. If you are looking for a process-driven organisation which deliver value and efficiency while limiting the variability seen in people-driven organisations, look no further.​
   button:
     enable: true
     label: know more
