@@ -21,13 +21,14 @@ industry_we_serve:
       Thus extensive and frequent optimizations of keywords and ad copy are required
       to maintain client profitability.
   - title: B2C Online Directories
-    content: Directory that connects businesses to customers in the entertainment,
-      home services, and other similar industries. Client revenue is based on viewing
-      the merchant landing page. Client offers "Click Packages" to its advertisers
-      - a given number of clicks for a given amount of money. Objective of the campaign
-      is to generate quality clicks based on the "Click Package" and minimizing the
-      amount spent.  Campaign performance, and the fees, is based on the ROAS (Return
-      On Advertising Spend). Keyword and ad copy optimized on a per-category basis.
+    content: Directories that connect businesses to customers in the entertainment,
+      home services, and other industries. Client revenue is based on viewing the
+      merchant landing page. Our clients offer "Click Packages'' to advertisers -
+      a given number of clicks for a given amount of money. The Objective of the campaign
+      is to generate quality clicks based on the click package and minimizing the
+      spend.  Campaign performance, and fees, are based on the ROAS (Return On Advertising
+      Spend) of the program. Keyword and ad copy can be customized to each advertiser
+      or optimized on a per-category basis.
   - title: Real Estate Aggregator
     content: Directory that showcases homes for sale from home builders and realtors.
       Client revenue is based on landing page visits. Keywords and ad copies regularly
