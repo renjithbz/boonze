@@ -38,7 +38,7 @@ who_we_serve_items:
     from the revenue from directory listings, can your directory benefit from offering
     digital marketing solutions to your clients? Boonze will enable you to sell Google
     ads, social ads and more to your clients to generate additional revenue. Our experienced
-    account strategists will work with you to analyze your directory and co-develop
+    account strategists will work with you to analyse your directory and co-develop
     a customized, profit-enhancing SEM program that fits your unique requirements.
 - title: PPC Technology Platform
   icon: ti-layers
