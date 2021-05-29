@@ -27,6 +27,12 @@
 {{end}}
 {{end}}
 
+<!-- cta two -->
+{{ with .Params.cta_two }}
+{{ if .enable }}
+{{ partial "cta.html" . }}
+{{ end }}
+{{ end }}
 
 {{ with .Params.library_expertise }}
 {{ if .enable }}
