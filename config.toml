@@ -1,175 +1,106 @@
-######################## default configuration ####################
 baseURL = "https://boonze.com/"
-title = "SEM Company, PPC Agency, and SEO Outsourcing Services in Chennai, India"
-theme = "boonze"
-# post pagination
+disqusShortname = ""
 paginate = "6"
-# post excerpt
 summaryLength = "10"
-# disqus short name
-disqusShortname = "" # get your shortname form here : https://disqus.com
-
+theme = "boonze"
+title = "SEM Company, PPC Agency, and SEO Outsourcing Services in Chennai, India"
+[markup.goldmark.renderer]
+unsafe = true
+[[menu.footer]]
+URL = "who-we-serve"
+name = "Who We Serve"
+weight = 1
+[[menu.footer]]
+URL = "http://www.boonze.blogspot.com/"
+name = "Latest Blogs"
+weight = 2
+[[menu.footer]]
+URL = "careers"
+name = "Careers"
+weight = 3
+[[menu.footer]]
+URL = "terms"
+name = "Terms & Conditions"
+weight = 10
+[[menu.footer]]
+URL = "privacy"
+name = "Privacy Policy"
+weight = 11
+[[menu.main]]
+URL = "industry"
+name = "Industries We Serve"
+weight = 2
+[[menu.main]]
+URL = "services"
+name = "Services"
+weight = 3
+[[menu.main]]
+URL = "search-ads-library"
+name = "Search Ads Library"
+weight = 4
+[[menu.main]]
+URL = "about-us"
+name = "About Boonze"
+weight = 5
 [outputs]
 home = ["HTML", "RSS", "JSON"]
-
-[markup.goldmark.renderer]
-unsafe= true
-
-############################# Plugins ##############################
-
-# CSS Plugins
-# [[params.plugins.css]]
-# link = "plugins/bootstrap/bootstrap.min.css"
+[params]
+author = "Themefisher"
+contact_form_action = "https://formspree.io/f/mknkrrla"
+description = "This is meta description"
+email = "renjith@boonze.com"
+home = "Home"
+logo = "images/logo.webp"
+mobile = "+91 9500123131"
+search = false
+[params.address]
+address_locality = "A4, Palani Towers."
+address_region = "Chennai 600017, Tamil Nadu, India"
+company_name = "Boonze Media Solutions P Ltd."
+street_address = "No.31, Venkatnarayana Road, T.Nagar"
+[params.navigation_button]
+enable = true
+label = "get a quote"
+link = "contact-us"
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
-# [[params.plugins.css]]
-# link = "plugins/magnific-popup/magnific-popup.css"
 [[params.plugins.css]]
 link = "plugins/themify-icons/themify-icons.css"
-
-# JS Plugins
 [[params.plugins.js]]
 link = "plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
 link = "plugins/bootstrap/bootstrap.min.js"
 [[params.plugins.js]]
 link = "plugins/slick/slick.min.js"
-# [[params.plugins.js]]
-# link = "plugins/match-height/jquery.matchHeight-min.js"
-# [[params.plugins.js]]
-# link = "plugins/shuffle/shuffle.min.js"
-# [[params.plugins.js]]
-# link = "plugins/magnific-popup/jquery.magnific.popup.min.js"
-# [[params.plugins.js]]
-# link = "plugins/search/fuse.min.js"
-# [[params.plugins.js]]
-# link = "plugins/search/mark.js"
-# [[params.plugins.js]]
-# link = "plugins/search/search.js"
-# [[params.plugins.js]]
-# link = "plugins/google-map/gmap.js"
-
-############################## navigation ###############################
-# main menu
-[[menu.main]]
-name = "Industries We Serve"
-URL = "industry"
-weight = 2
-
-[[menu.main]]
-name = "Services"
-URL = "services"
-weight = 3
-
-[[menu.main]]
-name = "Search Ads Library"
-URL = "search-ads-library"
-weight = 4
-
-[[menu.main]]
-name = "About Boonze"
-URL = "about-us"
-weight = 5
-
-# footer menu
-[[menu.footer]]
-name = "Who We Serve"
-URL = "who-we-serve"
-weight = 1
-
-[[menu.footer]]
-name = "Latest Blogs"
-URL = "http://www.boonze.blogspot.com/"
-weight = 2
-
-[[menu.footer]]
-name = "Careers"
-URL = "careers"
-weight = 3
-
-[[menu.footer]]
-name = "Terms & Conditions"
-URL = "terms"
-weight = 10
-
-[[menu.footer]]
-name = "Privacy Policy"
-URL = "privacy"
-weight = 11
-
-#################### default parameters ################################
-[params]
-logo = "images/logo.webp"
-home = "Home"
-# Meta data
-description = "This is meta description"
-author = "Themefisher"
-# contact info
-mobile = "+91 9500123131"
-email = "sales@boonze.com"
-# contact form action
-contact_form_action = "https://formsubmit.co/sales@boonze.com" # contact form works with https://formsubmit.co/
-# search
-search = false
-
-# address
-[params.address]
-company_name = "Boonze Media Solutions P Ltd."
-address_locality = "A4, Palani Towers."
-street_address = "No.31, Venkatnarayana Road, T.Nagar"
-address_region = "Chennai 600017, Tamil Nadu, India"
-
-# Preloader
 [params.preloader]
 enable = false
-preloader = "" # use jpg, png, svg or gif format.
-
-# Navigation button
-[params.navigation_button]
-enable = true
-label = "get a quote"
-link = "contact-us"
-
-
-###################### Clients logo slider ###############################
+preloader = ""
 [[params.clients_logo]]
 logo = "images/clients-logo/Amazon spn.webp"
-
 [[params.clients_logo]]
 logo = "images/clients-logo/Bing ads.webp"
-
 [[params.clients_logo]]
 logo = "images/clients-logo/Facebook ads.webp"
-
 [[params.clients_logo]]
 logo = "images/clients-logo/Google ads.webp"
-
 [[params.clients_logo]]
 logo = "images/clients-logo/Instagram.webp"
-
 [[params.clients_logo]]
 logo = "images/clients-logo/LinkedIn Ads.webp"
-
 [[params.clients_logo]]
 logo = "images/clients-logo/Shopify.webp"
-
-############################# social icon #################################
 [[params.social]]
-icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
+icon = "ti-linkedin"
 link = "https://www.linkedin.com/company/boonze-media-solutions"
-
 [[params.social]]
-icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
+icon = "ti-facebook"
 link = "https://www.facebook.com/SEMandPPC/"
-
 [[params.social]]
-icon = "ti-instagram" # themify icon pack : https://themify.me/themify-icons
+icon = "ti-instagram"
 link = "https://www.instagram.com/"
-
 [[params.social]]
-icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
+icon = "ti-youtube"
 link = "https://www.youtube.com/"
-
 [[params.social]]
-icon = "ti-twitter" # themify icon pack : https://themify.me/themify-icons
+icon = "ti-twitter"
 link = "https://twitter.com/boonze_media"
