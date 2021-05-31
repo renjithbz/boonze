@@ -6,7 +6,7 @@
   HUGO_VERSION = "0.83.1"
 
 [[headers]]
-  for = "/*" # This defines which paths this specific [[headers]] block will cover.
+  for = "/*" # This defines which path this specific [[headers]] block will cover.
 
 [headers.values]
   X-Frame-Options = "DENY"
