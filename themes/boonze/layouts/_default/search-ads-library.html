@@ -34,17 +34,11 @@
 {{ end }}
 {{ end }}
 
-{{ with .Params.library_expertise }}
-{{ if .enable }}
+{{ with .Params.expertise_item }}
 <section class="section bg-light">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-8 text-center mb-5 pb-2">
-        <h2 class="section-title mb-3">{{ .title | markdownify }}</h2>
-      </div>
-    </div>
     <div class="row">
-      {{ range .expertise_item }}
+      {{ range . }}
       <div class="col-lg-4 col-sm-6 mb-4">
         <div class="card rounded-0 text-center border h-100">
           <div class="card-body p-4">
@@ -59,8 +53,13 @@
   </div>
 </section>
 {{end}}
-{{end}}
 
+<!-- cta two -->
+{{ with .Params.cta_three }}
+{{ if .enable }}
+{{ partial "cta.html" . }}
+{{ end }}
+{{ end }}
 
 {{ with .Params.base_features }}
 {{ if .enable }}
