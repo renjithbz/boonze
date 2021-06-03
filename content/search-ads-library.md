@@ -9,7 +9,8 @@ library_advantage:
   enable: true
   image: images/search-ads-library/01.webp
   content: "\n## The Search Ads Library Advantage\n\n* Launching better client campaigns,
-    faster.\n* Enabling clients to select from predetermined categories.\n* Category-level,
+    faster.\n* Enabling affordable and effective optimization of high-volume, low-spend
+    campaigns while bringing precision to high-spend, complex campaigns.\n* Category-level,
     instead of advertiser-level optimization. "
 cta_two:
   enable: true
