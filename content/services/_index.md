@@ -16,7 +16,7 @@ service_item:
     optimization. <br><br> Our data-driven approach ensures our clients are leveraging
     the most suitable campaign and ad types, and budgets, for their unique needs.
     Our primary focus is saving advertisers money while providing the best ROI possible..
-- title: Social Media - Build Your Brand Awareness
+- title: Social Media - Connect With Your Audience Where They Are Most Comfortable
   content: |-
     We provide end-to-end social media management and marketing services. First we analyze your page, competitors, and industry to identify the right pairing of audience targeting and creative messaging. Next we focus on building a brand voice that communicates your brand, ideas, principles, and USPs. When additional engagement is required, we next connect you with influencers and develop a plan to get your brand in front of their community. Ultimately, we craft compelling messaging and deliver it to the right audience to help you achieve your business goals and drive ROI.
     ​<br><br>
