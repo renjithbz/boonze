@@ -21,9 +21,9 @@ expertise_item:
     business. From initial assessment to creation to implementation, we do it. A clean
     library improves performance and reduces overlap.
 - title: Rework
-  content: We can leverage your (or our!) ad and keyword library to update it for
-    changing advertisers, categories, trends, or ad types. Bring your existing taxonomy
-    into the modern era with us.
+  content: We can leverage your ad and keyword library to update it for changing advertisers,
+    categories, trends, or ad types. Bring your existing taxonomy into the modern
+    era with us.
 - title: Maintenance
   content: Boonze is eager to maintain your keyword and ad library. Here we can optimize
     at a category level, build out new categories, customize categories, or even apply
