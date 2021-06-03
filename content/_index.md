@@ -42,7 +42,7 @@ who_we_serve:
   enable: true
 testimonial:
   enable: true
-  title: What People Say?
+  title: What Do People Say?
   testimonial_item:
   - name: Founder
     designation: Marketing Technology Platform Company
