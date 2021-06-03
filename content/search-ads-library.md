@@ -11,7 +11,9 @@ library_advantage:
   content: "\n## The Search Ads Library Advantage\n\n* Launching better client campaigns,
     faster.\n* Enabling affordable and effective optimization of high-volume, low-spend
     campaigns while bringing precision to high-spend, complex campaigns.\n* Category-level,
-    instead of advertiser-level optimization. "
+    instead of advertiser-level optimization. \n* From hundreds of advertisers with
+    only dozens of keywords each, to a single advertiser with tens of thousands of
+    keywords, our classification approach enables growth, scale, and success."
 cta_two:
   enable: true
   title: Boonze Search Ads Library Expertise
