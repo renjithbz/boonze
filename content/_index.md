@@ -30,8 +30,8 @@ about:
     link: about-us
 cta_two:
   enable: true
-  title: We Proudly Serve Agencies, Publishers and SMBs. <br> Founded In 2005. One
-    Of The 1st Digital Marketing Agencies In India
+  title: We Proudly Serve Agencies, Publishers and SMBs. <br> Founded In 2005, We
+    Are One Of The 1st Digital Marketing Agencies In India
 how_can_boonze_help:
   enable: true
   image: images/about/office.webp
