@@ -29,7 +29,7 @@ industry_we_serve:
       spend.  Campaign performance, and fees, are based on the ROAS (Return On Advertising
       Spend) of the program. Keyword and ad copy can be customized to each advertiser
       or optimized on a per-category basis.
-  - title: Real Estate Aggregator
+  - title: Real Estate Aggregators
     content: Directories that showcase homes for sale from home builders and realtors.
       Client revenue is based on landing page visits. Keywords and ad copies are regularly
       optimized on a per-category (e.g., homes for sale, apartments for rent) basis.
