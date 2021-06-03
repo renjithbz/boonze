@@ -3,7 +3,7 @@ banner:
   title: Data Driven Optimization </br> for Post-click Performance
   bg_image: images/backgrounds/banner.jpg
   bg_image_webp: images/backgrounds/banner.webp
-  content: Learn how we provide value to advertisers, agencies, and strategic partners
+  content: Learn how we provide value to advertisers, agencies, and strategic partners.
   button_solid:
     enable: true
     label: Explore Us
