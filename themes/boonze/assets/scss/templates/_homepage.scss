@@ -39,6 +39,7 @@
     background: $white;
   }
 }
+
 .bg-secondary-white-left {
   background: linear-gradient(to right, $white 60%, $secondary-color 0);
 
@@ -203,7 +204,8 @@
     .gallery-content {
       visibility: visible;
       opacity: 1;
-      &>div{
+
+      &>div {
         transform: translateY(0px);
       }
     }
@@ -219,7 +221,8 @@
     opacity: 0;
     visibility: hidden;
     transition: .2s ease;
-    &>div{
+
+    &>div {
       transition: inherit;
       transform: translateY(20px);
     }
@@ -227,5 +230,21 @@
     i {
       font-size: 25px;
     }
+  }
+}
+
+
+// contact
+.bgn-wf-wrapper {
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 50px !important;
+}
+
+.bgn-wf-field {
+
+  input,
+  textarea {
+    width: 100% !important;
   }
 }
