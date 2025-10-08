@@ -81,5 +81,6 @@ sister_company:
     * Winner of Google India’s Highest Customer Satisfaction Award for 3 years. The only 1st place winner ever.
     * Client success story mentioned by Google CEO Sundar Pichai in his address to the Indian Prime Minister.
     * Google SME Heroes Chennai: 3/5 total winners are Boonze/O3M  accounts
+    * Winner of the 2023 Amazon Ads Partner APAC Challenger Award
 
 ---
