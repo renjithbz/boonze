@@ -7,3 +7,21 @@ Hugo - How to host hugo website from a regular web server
 =========================================================
 https://gohugo.io/hosting-and-deployment/
 https://gohugo.io/commands/
+Boonze website workflow
+Hugo static site source (hosted on GitHub)
+           ↓
+      Forestry.io (CMS editor)
+           ↓ (commits Markdown/HTML changes)
+        GitHub Repo
+           ↓ (triggered via GitHub webhook)
+        Netlify (builds and hosts site)
+           ↓
+     https://www.boonze.com  (live website)
+
+So:
+Forestry → make content editing easy.
+GitHub → source code & content.
+Netlify → built and hosted the live website automatically.
+
+About Forestry
+Forestry announced it would sunset (retire) its platform — they stopped new sign-ups in June 2022 and fully shut down the service by April 2024. So as of now, Forestry.io no longer works
