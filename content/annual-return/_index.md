@@ -4,8 +4,6 @@ slug: "annual-return"
 robots: "noindex, nofollow"
 ---
 
-Download or view the annual return documents below.
-
 ## Excel File
 
 <a href="/annual-return/MGT-7A-Details-of-Shareholder-or-Debenture-holders-V2.xlsm" download class="btn btn-primary">Download Excel</a>
